@@ -81,8 +81,10 @@ a, a:hover {
   z-index: 4;
   box-shadow: 0px 5px 10px 0px #414345, 0px 0px 0px 7px #414345;
 }
+@media screen and (max-width: 576px) {
 .profile-card__img:hover{
     transform: rotate(360deg);
+  }
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
