@@ -74,21 +74,12 @@ a, a:hover {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-  transition: 1.2s;
+  transform: translateY(-50%);
   border-radius: 50%;
   overflow: hidden;
   position: relative;
   z-index: 4;
   box-shadow: 0px 5px 10px 0px #414345, 0px 0px 0px 7px #414345;
-}
-@media screen and (max-width: 576px) {
-.profile-card__img:hover{
-     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-  }
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
