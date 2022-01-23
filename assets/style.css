@@ -83,7 +83,6 @@ a, a:hover {
 }
 .profile-card__img:hover{
     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
