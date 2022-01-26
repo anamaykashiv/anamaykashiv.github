@@ -100,6 +100,7 @@ a, a:hover {
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+     transition-delay: 1s;
 }
 .profile-card__cnt {
   margin-top: -25px;
