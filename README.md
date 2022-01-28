@@ -1,1 +1,1 @@
-# anamaykashiv.github.io
+Available at anamay.me
