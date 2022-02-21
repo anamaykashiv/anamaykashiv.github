@@ -110,10 +110,22 @@ a, a:hover {
   transition: all .3s;
 }
 .profile-card__name {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 28px;
   color: #EB3349;
   margin-bottom: 5px;
+  background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100% );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  100%{
+    background-position: 400%;
+
+  }
+  
 }
 .profile-card__txt {
   font-size: 18px;
