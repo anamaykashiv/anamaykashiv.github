@@ -1,1 +1,1 @@
-Available [Here](https://anamay.is-a.dev)
+Available [Here](https://anamay.live)
